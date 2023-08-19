@@ -27,17 +27,26 @@ function DataFetching() {
         <header>
           <h1>Feeling hungry?</h1>
           <h2>Get a random meal by clicking below</h2>
-          <button> Get Meal &#127828;</button>
+          <button type="button" class="btn btn-primary">
+            Get Meal &#127828;
+          </button>
         </header>
-        <main>
+        <main className="main-container">
           <div className="pic-info-ingredients">
             <div>
               <img src={meal.strMealThumb} alt={meal.strMeal} />
             </div>
-            <ul>
-              <li>Category: {meal.strCategor}</li>
-              <li>Area: {meal.strArea}</li>
-              <li>Tags: {meal.strTags}</li>
+            <ul className="meal-CAT">
+              <li>
+                <span className="meal-CAT-item">Category:</span>{" "}
+                {meal.strCategor}
+              </li>
+              <li>
+                <span className="meal-CAT-item">Area:</span> {meal.strArea}
+              </li>
+              <li>
+                <span className="meal-CAT-item">Tags:</span> {meal.strTags}
+              </li>
             </ul>
 
             <div>
