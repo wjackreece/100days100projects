@@ -84,6 +84,7 @@ function DataFetching() {
           <h1 className="video-recipe-title">Video Recipe</h1>
           <div className="video-recipe-clip">
             <iframe
+              className="video-recipe-clip-iframe"
               width="560"
               height="315"
               src={video}

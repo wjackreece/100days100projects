@@ -11,6 +11,10 @@
   margin: 50px 0;
 }
 
+.pic-info-ingredients {
+  width: 45%;
+}
+
 .meal-image {
   width: 100%;
 }
@@ -39,6 +43,11 @@
   text-align: left;
 }
 .video-recipe-clip {
+  width: 100%;
+  justify-content: left;
+}
+
+.video-recipe-clip-iframe {
   width: 100%;
   justify-content: left;
 }
