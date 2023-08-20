@@ -20,8 +20,8 @@ function DataFetching() {
         const { strYoutube } = meals[0];
         console.log("strTags", meals[0].strTags);
         setMeal(meals[0]);
-
         setVideo(strYoutube.replace("watch?v=", "embed/"));
+        setTags(strTags.replace("watch?v=", "embed/"));
       })
       .catch((err) => console.log(err));
   }, []);
