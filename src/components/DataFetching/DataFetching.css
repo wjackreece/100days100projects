@@ -1,6 +1,7 @@
 .container {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .main-container {
@@ -29,6 +30,9 @@
   font-weight: 800;
 }
 
+.meal-ingredients-title {
+  text-align: left;
+}
 .meal-ingredients {
   text-align: left;
   list-style-type: circle;
@@ -50,5 +54,7 @@
 
 .video-recipe-clip-iframe {
   width: 100%;
-  justify-content: left;
+  height: 500px;
+  display: flex;
+  justify-items: left;
 }

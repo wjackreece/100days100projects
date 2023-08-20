@@ -67,7 +67,7 @@ function DataFetching() {
             </ul>
 
             <div>
-              <h3>Ingredients:</h3>
+              <h3 className="meal-ingredients-title">Ingredients:</h3>
               <ul className="meal-ingredients">
                 <li>
                   {meal.strIngredient1}- {meal.strMeasure1}
