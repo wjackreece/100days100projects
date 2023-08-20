@@ -7,6 +7,11 @@ function DataFetching() {
   const [meal, setMeal] = useState([]);
   const [video, setVideo] = useState("");
 
+  function handleClick() {
+    window.location.reload();
+    console.log("You clicked submit.");
+  }
+
   useEffect(() => {
     axios
       .get("https://www.themealdb.com/api/json/v1/1/random.php")
@@ -21,20 +26,25 @@ function DataFetching() {
       })
       .catch((err) => console.log(err));
   }, []);
+
   return (
     <div className="wrapper">
       <div className="container">
         <header>
           <h1>Feeling hungry?</h1>
           <h2>Get a random meal by clicking below</h2>
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-primary" onClick={handleClick}>
             Get Meal &#127828;
           </button>
         </header>
         <main className="main-container">
           <div className="pic-info-ingredients">
             <div>
-              <img src={meal.strMealThumb} alt={meal.strMeal} />
+              <img
+                className="meal-image"
+                src={meal.strMealThumb}
+                alt={meal.strMeal}
+              />
             </div>
             <ul className="meal-CAT">
               <li>
@@ -51,7 +61,7 @@ function DataFetching() {
 
             <div>
               <h3>Ingredients:</h3>
-              <ul>
+              <ul className="meal-ingredients">
                 <li>
                   {meal.strIngredient1}- {meal.strMeasure1}
                 </li>
