@@ -18,11 +18,10 @@ function DataFetching() {
       .then((res) => {
         const { meals } = res.data;
         const { strYoutube } = meals[0];
-        console.log(meals[0]);
+        console.log("strTags", meals[0].strTags);
         setMeal(meals[0]);
 
         setVideo(strYoutube.replace("watch?v=", "embed/"));
-        console.log("video", video);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -47,16 +46,21 @@ function DataFetching() {
               />
             </div>
             <ul className="meal-CAT">
-              <li>
-                <span className="meal-CAT-item">Category:</span>{" "}
-                {meal.strCategor}
-              </li>
+              {meal.strCategory !== null && (
+                <li>
+                  <span className="meal-CAT-item">Category:</span>{" "}
+                  {meal.strCategory}
+                </li>
+              )}
+
               <li>
                 <span className="meal-CAT-item">Area:</span> {meal.strArea}
               </li>
-              <li>
-                <span className="meal-CAT-item">Tags:</span> {meal.strTags}
-              </li>
+              {meal.strTags !== null && (
+                <li>
+                  <span className="meal-CAT-item">Tags:</span> {meal.strTags}
+                </li>
+              )}
             </ul>
 
             <div>
