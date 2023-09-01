@@ -34,9 +34,9 @@ function Day002() {
         </button>
       </div>
       <p>then click on the circles below</p>
-      <div id="calendar" className="calendar">
-        <div className="month">
-          <h3>Month</h3>
+      <div className="calendar-container">
+        <div className="calendar">
+          <h3 className="month">Month</h3>
           <div className="week-days-container">
             <div className="week-days">Sun</div>
             <div className="week-days">Mon</div>
