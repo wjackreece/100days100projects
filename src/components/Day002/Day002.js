@@ -49,39 +49,107 @@ function Day002() {
           <div className="days-container">
             <div className="days">
               <span className="cirle">30</span>
+            </div>
+            <div className="days">
               <span className="cirle">31</span>
+            </div>
+            <div className="days">
               <span className="cirle">1</span>
+            </div>
+            <div className="days">
               <span className="cirle">2</span>
+            </div>
+            <div className="days">
               <span className="cirle">3</span>
+            </div>
+            <div className="days">
               <span className="cirle">4</span>
+            </div>
+            <div className="days">
               <span className="cirle">5</span>
+            </div>
+            <div className="days">
               <span className="cirle">6</span>
+            </div>
+            <div className="days">
               <span className="cirle">7</span>
+            </div>
+            <div className="days">
               <span className="cirle">8</span>
+            </div>
+            <div className="days">
               <span className="cirle">9</span>
+            </div>
+            <div className="days">
               <span className="cirle">10</span>
+            </div>
+            <div className="days">
               <span className="cirle">11</span>
+            </div>
+            <div className="days">
               <span className="cirle">12</span>
+            </div>
+            <div className="days">
               <span className="cirle">13</span>
+            </div>
+            <div className="days">
               <span className="cirle">14</span>
+            </div>
+            <div className="days">
               <span className="cirle">15</span>
+            </div>
+            <div className="days">
               <span className="cirle">16</span>
+            </div>
+            <div className="days">
               <span className="cirle">17</span>
+            </div>
+            <div className="days">
               <span className="cirle">18</span>
+            </div>
+            <div className="days">
               <span className="cirle">19</span>
+            </div>
+            <div className="days">
               <span className="cirle">20</span>
+            </div>
+            <div className="days">
               <span className="cirle">21</span>
+            </div>
+            <div className="days">
               <span className="cirle">22</span>
+            </div>
+            <div className="days">
               <span className="cirle">23</span>
+            </div>
+            <div className="days">
               <span className="cirle">24</span>
+            </div>
+            <div className="days">
               <span className="cirle">25</span>
+            </div>
+            <div className="days">
               <span className="cirle">26</span>
+            </div>
+            <div className="days">
               <span className="cirle">27</span>
+            </div>
+            <div className="days">
               <span className="cirle">28</span>
+            </div>
+            <div className="days">
               <span className="cirle">29</span>
+            </div>
+            <div className="days">
               <span className="cirle">30</span>
+            </div>
+            <div className="days">
               <span className="cirle">31</span>
+            </div>
+            <div className="days">
               <span className="cirle">1</span>
+            </div>
+            <div className="days">
               <span className="cirle">2</span>
             </div>
           </div>
