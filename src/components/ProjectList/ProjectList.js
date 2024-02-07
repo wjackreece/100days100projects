@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ProjectList() {
   return (
@@ -16,30 +17,19 @@ function ProjectList() {
             <tr>
               <td align="center">001</td>
               <td align="center">
-                <a
-                  href="https://codepen.io/FlorinPop17/full/WNeggor"
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                >
+                <Link to="/001" className="project-links">
                   Random Meal Generator
-                </a>
-              </td>
-              <td align="center">
-                <a href="/blog/2019/09/random-meal-generator">Link</a>
+                </Link>
               </td>
             </tr>
+
             <tr>
               <td align="center">002</td>
               <td align="center">
-                <a
-                  href="https://codepen.io/FlorinPop17/full/eYOPdER"
-                  target="_blank"
-                  rel="nofollow noopener noreferrer"
-                >
+                <Link to="/002" className="project-links">
                   2019 Mood Calendar
-                </a>
+                </Link>
               </td>
-              <td align="center">-</td>
             </tr>
           </tbody>
         </table>

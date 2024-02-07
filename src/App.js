@@ -7,11 +7,14 @@ import ProjectList from "./components/ProjectList/ProjectList";
 
 function App() {
   return (
-    <div>
-      <ProjectList />
-      <DataFetching />
-      <Day002 />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/001" element={<DataFetching />} />
+        <Route path="/002" element={<Day002 />} />
+
+        <Route path="*" element={<ProjectList />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
