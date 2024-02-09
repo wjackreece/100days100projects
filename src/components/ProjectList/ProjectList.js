@@ -15,7 +15,7 @@ function ProjectList() {
           </thead>
           <tbody>
             <tr>
-              <td align="center">001</td>
+              <td align="left">001</td>
               <td align="center">
                 <Link to="/001" className="project-links">
                   Random Meal Generator
@@ -24,10 +24,18 @@ function ProjectList() {
             </tr>
 
             <tr>
-              <td align="center">002</td>
+              <td align="left">002</td>
               <td align="center">
                 <Link to="/002" className="project-links">
                   2019 Mood Calendar
+                </Link>
+              </td>
+            </tr>
+            <tr>
+              <td align="left">002-2</td>
+              <td align="center">
+                <Link to="/staticDayPicker" className="project-links">
+                  STATIC 2019 Mood Calendar
                 </Link>
               </td>
             </tr>
